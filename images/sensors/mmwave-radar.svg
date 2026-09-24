@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative mmWave presence sensor</title>
+  <desc id="desc">A smooth wall sensor emits subtle radar wave arcs in a neutral architectural setting.</desc>
+  <defs>
+    <linearGradient id="wall" x2="1" y2="1"><stop stop-color="#deded4"/><stop offset="1" stop-color="#f4f0e7"/></linearGradient>
+    <linearGradient id="device" x2=".9" y2="1"><stop stop-color="#fffefa"/><stop offset="1" stop-color="#deded4"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="21"/></filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#wall)"/>
+  <path d="M0 574H1200" stroke="#c8c9be" stroke-width="3"/>
+  <path d="M0 580H1200V800H0Z" fill="#e5e3d9"/>
+  <ellipse cx="565" cy="681" rx="246" ry="38" fill="#333e39" opacity=".17" filter="url(#shadow)"/>
+  <g fill="none" stroke="#8fa89b" stroke-width="4" opacity=".4">
+    <path d="M718 300a90 90 0 0 1 0 180"/>
+    <path d="M748 260a140 140 0 0 1 0 260"/>
+    <path d="M783 214a195 195 0 0 1 0 350"/>
+    <path d="M819 168a250 250 0 0 1 0 442"/>
+  </g>
+  <rect x="356" y="178" width="349" height="395" rx="56" fill="#424c45" opacity=".18" filter="url(#shadow)"/>
+  <rect x="335" y="158" width="350" height="395" rx="54" fill="url(#device)" stroke="#d1d4cc" stroke-width="4"/>
+  <rect x="375" y="198" width="270" height="317" rx="34" fill="#f7f6ef" stroke="#e3e4dc" stroke-width="3"/>
+  <circle cx="510" cy="354" r="48" fill="#e4e8e3" stroke="#cbd4ca" stroke-width="3"/>
+  <circle cx="510" cy="354" r="15" fill="#a6b8ac"/>
+  <circle cx="510" cy="470" r="5" fill="#96ae9f"/>
+  <path d="M66 98H326M66 98v170M1134 701H888M1134 701V550" fill="none" stroke="#bcc9bc" stroke-width="2" opacity=".55"/>
+</svg>
